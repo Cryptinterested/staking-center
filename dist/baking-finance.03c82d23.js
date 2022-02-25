@@ -169,7 +169,7 @@ module.exports = reloadCSS;
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./images/stakingcenter.png":26,"_css_loader":57}],17:[function(require,module,exports) {
+},{"./images/stakingcenter.png":26,"_css_loader":57}],30:[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -198,7 +198,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '36843' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '41045' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -418,4 +418,4 @@ LazyPromise.prototype.catch = function (onError) {
 };
 },{"./bundle-url":59}],0:[function(require,module,exports) {
 var b=require(62);b.load([["stakingcenter.5aee337e.png",26]]);
-},{}]},{},[17,0], null)
+},{}]},{},[30,0], null)

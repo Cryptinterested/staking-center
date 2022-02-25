@@ -161,6 +161,26 @@ a.wallet:hover {
     .textspe {
       margin-left: 50px;
     }
+    #fstimg {
+      width: 600px;
+      height: 600px;
+    }
+    .h-100 {
+      font-size: xx-large
+    }
+    .title {
+      font-size:60px;
+    }
+    .btn {
+      font-size: xx-large;
+    }
+    .page-footer-section {
+      font-size: x-large;
+    }
+    .ftimg {
+      display: none;
+    }
+
 }
 
 @import url('https://fonts.googleapis.com/css?family=Hind:300,400&display=swap');
