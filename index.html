@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"/>
+    <meta name="description" content="Baking.finance - Delegate your tez"/>
+    <meta name="copyright" th:content="'Baking.finance, ' + ${domain}"/>
+    <meta property="og:title" content="Baking.finance"/>
+    <meta property="og:description" content="" />
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" th:content="${domain}"/>
+    <title>STAKING CENTER - LEVERAGE ON POS BLOCKCHAINS</title>
+    <link rel="shortcut icon" href="./images/stakingcenter_black.png" type="image/x-icon"/>
+    <link type="text/css" rel="stylesheet" href="./bootstrap.css"/>
+    <link type="text/css" rel="stylesheet" href="./default.css"/>
+    <link type="text/css" rel="stylesheet" href="./baking-finance.css"/>
+    <link type="text/css" rel="stylesheet" href="./animate.css"/>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light navbar-floating">
+    <div class="container">
+        <a id="baking-finance-logo" class="navbar-brand"></a>
+        <div class="collapse navbar-collapse black-shadow" id="navbarToggler">
+            <ul class="navbar-nav ml-lg-5 mt-3 mt-lg-0">
+                <li class="nav-item dropdown active">
+                    <a class="nav-link text-center" href="#welcome" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Welcome</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-center" href="#ourservices">Our services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-center" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+</nav>
+
+<!-- Introduction -->
+<div id="introduction" class="page-hero-section bg-image hero-home-1 text-white " th:style="background-image: url(./images/bgimage.jpeg)">
+    <div class="hero-caption pt-5">
+        <div class="container h-100">
+            <div class="row align-items-center h-100">
+                <div class="col-lg-6 wow fadeInUp">
+                    <img src="./images/bc.png" id="fstimg" class="rotateimg180" alt="bc" >
+                    <h2 class="black-shadow">Take advantage of Proof of stake blockchains</h2>
+                    <p class="black-shadow">We help you to understand the technology and participate in blockchain networks</p>
+                    <a href="#ourservices" class="btn btn-primary rounded-pill see_more">See more</a>
+                  </div>
+               </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Services -->
+<div id="ourservices" class="page-section no-scroll" th:style="'background-image: url(pattern_1.svg);'">
+    <div class="container">
+        <h2 class="text-center wow fadeIn mt-5">Delegate your coins, using our validators</h2>
+        <div class="row justify-content-center mt-4">
+            <div class="col-md-6 col-lg-3 py-3">
+                <a href="https://www.baking.finance" target="_blank" class="card card-body border-0 text-center wow zoomIn shadow bg-white-transparent exchange-card">
+                    <div>
+                        <img class="exchange-logo" src="./images/tezos.png" >
+                    </div>
+                    <p class="fs-vlarge font-weight-bolder">Tezos</p>
+                    <p class="fs-small fg-grey">Delegate your coins thanks to our one-click delegation service Baking.Finance</p>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3 py-3">
+                <a href="https://www.ethereum.org/" target="_blank" class="card card-body border-0 text-center wow zoomIn shadow bg-white-transparent exchange-card" data-wow-delay="200ms">
+                    <div>
+                        <img class="exchange-logo" src="./images/ethereum.png" alt="kraken-logo">
+                    </div>
+                    <p class="fs-vlarge font-weight-bolder">Ethereum</p>
+                    <p class="fs-small fg-grey">Coming soon...</p>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3 py-3">
+                <a href="https://polkadot.network/" target="_blank" class="card card-body border-0 text-center wow zoomIn shadow bg-white-transparent exchange-card" data-wow-delay="400ms">
+                    <div>
+                        <img class="exchange-logo" src="./images/polkadot.png">
+                    </div>
+                    <p class="fs-vlarge font-weight-bolder">Polkadot</p>
+                    <p class="fs-small fg-grey">Coming soon...</p>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3 py-3">
+                <a href="https://www.avax.network/" target="_blank" class="card card-body border-0 text-center wow zoomIn shadow bg-white-transparent exchange-card" data-wow-delay="800ms">
+                    <div>
+                        <img class="exchange-logo" src="./images/avax.png">
+                    </div>
+                    <p class="fs-vlarge font-weight-bolder">Avalanche</p>
+                    <p class="fs-small fg-grey">Coming soon...</p>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3 py-3">
+                <a href="https://www.algorand.com/" target="_blank" class="card card-body border-0 text-center wow zoomIn shadow bg-white-transparent exchange-card" data-wow-delay="1000ms">
+                    <div>
+                        <img class="exchange-logo" src="./images/algorand.jpg">
+                    </div>
+                    <p class="fs-vlarge font-weight-bolder">Algorand</p>
+                    <p class="fs-small fg-grey">Coming soon...</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div>
+      <h2 class="text-center wow fadeIn mt-5">Deployment of validators</h2>
+      <div class="row justify-content-center mt-4">
+        <div class="col-md-6 col-lg-3 py-3">
+          <p class="fs-small fg-grey textspe">
+            We deploy private and public validators on Tezos and provide:<br><br>
+            ✔ Infrastructure configuration<br>
+            ✔ Securization and deployment of the validator nodes<br>
+            ✔ 24/7 Monitoring<br>
+            ✔ Infrastructure upgrades<br>
+            ✔ Payout engine (if public validator)<br>
+            ✔ Validator address registering<br><br>
+            <a href="mailto:contact@staking-service.com">Contact us for a quote.</a>
+        </p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2 class="text-center wow fadeIn mt-5">Blockchain consulting</h2>
+      <div class="row justify-content-center mt-4">
+        <div class="col-md-6 col-lg-3 py-3">
+          <p class="fs-small fg-grey textspe">
+            ✔ Infrastructure, private key securization advice<br>
+            ✔ Introduction to the blockchain technology<br>
+            ✔ Case study<br>
+        </div>
+      </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer id="contact" class="page-footer-section bg-dark fg-white">
+    <div class="container">
+        <div class="row mb-5 py-3">
+            <div class="col-md-6 col-lg-4 py-3">
+                <ul class="menu-link">
+                    Contact
+                    <li><a href="mailto:contact@staking-service.com">contact@staking-service.com</a></li>
+                </ul>
+            </div>
+          </div>
+     </div>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 py-2">
+                <img src="./images/stakingcenter.png" alt="baking-finance-light-logo" width="40" height="30">
+                <p class="d-inline-block ml-2">Copyright &copy; <a th:href="${domain}" class="fg-white fw-medium">STAKING CENTER</a>. All rights reserved</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script type="text/javascript" th:src="@{/javascripts/jquery-3.5.1.min.js}"></script>
+<script type="text/javascript" th:src="@{/javascripts/bootstrap.bundle.min.js}"></script>
+<script type="text/javascript" th:src="@{/javascripts/wow.min.js}"></script>
+<script type="text/javascript" th:src="@{/javascripts/default.js}"></script>
+<script type="text/javascript" th:src="@{/javascripts/baking-finance.js}"></script>
+</body>
+</html>
